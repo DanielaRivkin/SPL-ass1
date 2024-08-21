@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/spl211/CLionProjects/Assignment1/include/Graph.h
+vector
+-
+
+/home/spl211/CLionProjects/Assignment1/include/Session.h
+vector
+-
+string
+-
+../include/Graph.h
+/home/spl211/CLionProjects/Assignment1/include/Graph.h
+queue
+-
+
+/home/spl211/CLionProjects/Assignment1/include/Tree.h
+vector
+-
+queue
+-
+../include/Graph.h
+/home/spl211/CLionProjects/Assignment1/include/Graph.h
+../include/Session.h
+/home/spl211/CLionProjects/Assignment1/include/Session.h
+
+/home/spl211/CLionProjects/Assignment1/src/FiveRuleTester.cpp
+../include/Tree.h
+/home/spl211/CLionProjects/Assignment1/include/Tree.h
+iostream
+-
+
